@@ -1,0 +1,40 @@
+.settings-box{
+    color: #000;
+    position: fixed;
+    left: -300px;
+    top: 0;
+    background-color: #FFF;
+    width: 300px;
+    z-index: 1000;
+    min-height: 100vh;
+    transition: .7s;
+}
+
+.settings-box.open{
+    left: 0px;
+}
+
+.settings-box .toggle-settings{
+    position: absolute;
+    right: -30px;
+    top: 40%;
+    font-size: 30px;
+    background-color: #FFF;
+    width: 30px;
+    text-align: center;
+    cursor: pointer;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+
+.settings-box .toggle-settings .settings-icon{
+    transform: rotate(360deg);
+    transition: 2s;
+}
+
+
+.settings-box .toggle-settings .icon:hover,
+.settings-box .toggle-settings .settings-icon:hover{
+    transform: rotate(100deg);
+    transition: 2s;
+}

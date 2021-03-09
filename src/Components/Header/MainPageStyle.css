@@ -1,0 +1,122 @@
+.main-page{
+    min-height: 100vh;
+    background-size: cover;
+    position: relative;
+    transition: 2.7s;
+}
+
+.main-page .overlay{
+    position: absolute;
+    background-color: rgba(0, 0, 0, 0.6);
+    width: 100%;
+    height: 100%;
+    left: 0;
+    top: 0;
+    z-index: 1;
+}
+
+.main-page .overlay .header-area{
+    position: relative;
+    z-index: 2;
+    color: #EEE;
+    display: flex;
+    padding: 2%;
+}
+
+.main-page .overlay .header-area .navbar{
+    width: 100%;
+}
+
+.main-page .overlay .header-area .navbar .navbar-toggler{
+    color: #EEE;
+    outline: none;
+    border: none;
+}
+
+.main-page .overlay .header-area .brand{
+    width: 35%;
+    font-size: 23px;
+    padding: 1%;
+    display: inline-block;
+    margin-left: 4%;
+    font-weight: bold;
+}
+
+.main-page .house-icon{
+    color: gold;
+    font-size: 50px;
+    padding: 0;
+}
+.main-page .overlay .header-area .links{
+    text-align: right;
+    list-style: none;
+    width: 100%;
+    margin-right: 6%;
+    font-size: 18px;
+}
+.main-page .overlay .header-area .links li{
+    display: inline-block;
+    margin-left: 15px;
+}
+
+.main-page .overlay .header-area .links li a{
+    color: #EEE;
+    text-decoration: none;
+    transition: .3s;
+}
+
+.main-page .overlay .header-area .links li a:hover{
+    color: gold;
+}
+
+.main-page .overlay .introduction-text{
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    z-index: -2;
+    color: #EEE;
+    text-align: center;
+}
+
+.main-page .overlay .introduction-text h1{
+    font-size: 40px;
+}
+
+.main-page .overlay .introduction-text h1 span{
+    color: gold;
+}
+
+.main-page .overlay .introduction-text p{
+    line-height: 1.6;
+    font-size: 18px;
+    color: #CCC;
+}
+
+@media(max-width:991px){
+
+    .navbar-expand-lg{
+        text-align: center;
+    }
+
+    .main-page .overlay .header-area .brand{
+        width: 100%;
+        margin: 0 auto;
+        color: #FFD700;
+    }
+    .main-page .overlay .header-area .links li{
+        display:block;
+        text-align: center;
+        margin: 2% 0;
+    }
+
+    
+    .main-page .overlay .introduction-text{
+        position: unset;
+        margin-top: 10%;
+        transform: none;
+        z-index: -2;
+        color: #EEE;
+        text-align: center;
+    }
+}
