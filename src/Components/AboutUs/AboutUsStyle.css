@@ -1,0 +1,37 @@
+.about-us{
+    margin: 5% 0;
+}
+
+.about-us .about-content{
+    float: left;
+    width: 55%;
+}
+
+.about-us .about-content h2{
+    font-size: 38px;
+    font-weight: bold;
+}
+
+.about-us .about-content p{
+    margin-top: 6%;
+    line-height: 1.7;
+}
+
+.about-us .img-div{
+    float: left;
+    width: 41%;
+    margin-left: 4%;
+}
+
+.about-us .img-div > img{
+    width: 100%;
+}
+
+@media (max-width: 767px){  /* phone screen */
+    .about-us .img-div{
+        margin-top: 20%;
+    }
+    .about-us .about-content p{
+        padding-left: 10%;
+    }
+}

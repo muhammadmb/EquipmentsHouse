@@ -33,7 +33,6 @@
     transition: 2s;
 }
 
-
 .settings-box .toggle-settings .icon:hover,
 .settings-box .toggle-settings .settings-icon:hover{
     transform: rotate(100deg);
@@ -45,13 +44,14 @@
 
 .settings-content .house-icon{
     font-size: 100px;
-    margin-left: 20%;
+    margin-left: 23%;
+    opacity: .6;
 }
 
 .settings-content .settingsBrand{
     font-size: 30px;
-    color: #00727a;
     font-weight: bold;
+    text-align: center;
 }
 
 .settings-content .options-box{

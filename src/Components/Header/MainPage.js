@@ -7,7 +7,7 @@ import bg4 from '../../Images/4.jpg';
 import bg6 from '../../Images/6.jpg';
 import Settings from '../Settings/Settings';
 
-const MainPage = () => {
+const MainPage = (props) => {
 
     const [value, setValue] = useState(0);
     const [color, setColor] = useState(localStorage.getItem("color"));
@@ -16,7 +16,6 @@ const MainPage = () => {
     let background = backgrounds[value];
 
     useEffect(() => {
-
         if (randomBackground) {
             const interval = setInterval(() => {
                 setValue(Math.floor(Math.random() * backgrounds.length));

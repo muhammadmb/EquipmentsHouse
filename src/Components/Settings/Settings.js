@@ -1,4 +1,4 @@
-import React, { useEffect, useState } from 'react';
+import React, { useState } from 'react';
 import './SettingsStyle.css';
 import HouseIcon from '@material-ui/icons/House';
 import SettingsIcon from '@material-ui/icons/Settings';
@@ -8,11 +8,10 @@ const Settings = (props) => {
 
     const [openSittngs, setOpenSettings] = useState(true);
     const [backgroundStatus, setBackgroundStatus] = useState(true);
-
     const color = localStorage.getItem("color");
 
     const handleColorChange = (color) => {
-        localStorage.setItem("color", color)
+        localStorage.setItem("color", color);
         props.OnColorChange(color);
     }
 
@@ -20,6 +19,19 @@ const Settings = (props) => {
         setBackgroundStatus(!backgroundStatus);
         props.backgroundOptionsChange(backgroundStatus);
     }
+
+    const ColorOptions = ["#FF7F00", "#00AEAE", "#B02578", "#3E5578", "#66B131", "#3C8EB6"];
+
+    const ColorList = (usedColor) => (
+        ColorOptions.map(item =>
+            <li
+                key={item}
+                className={item === usedColor ? "active" : ""}
+                onClick={() => handleColorChange(item)}
+                style={{ backgroundColor: item }}
+            >
+            </li>)
+    )
 
     return (
         <div className={openSittngs ? "settings-box" : "settings-box open"}>
@@ -38,13 +50,11 @@ const Settings = (props) => {
                 <h4 className="settingsBrand" style={{ color }}>Equipments House</h4>
 
                 <div className="options-box">
-                    <h4>Colors</h4>
+                    <h4>Theme</h4>
                     <ul className="colors-list">
-                        <li className={color === "#FFD700" ? "active" : ""} onClick={() => handleColorChange("#FFD700")}></li>
-                        <li className={color === "#f06292" ? "active" : ""} onClick={() => handleColorChange("#f06292")}></li>
-                        <li className={color === "#004d40" ? "active" : ""} onClick={() => handleColorChange("#004d40")}></li>
-                        <li className={color === "#3e2723" ? "active" : ""} onClick={() => handleColorChange("#3e2723")}></li>
-                        <li className={color === "#263238" ? "active" : ""} onClick={() => handleColorChange("#263238")}></li>
+
+                        {ColorList(color)}
+
                     </ul>
                 </div>
 
