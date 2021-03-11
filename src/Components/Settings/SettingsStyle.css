@@ -1,13 +1,14 @@
 .settings-box{
     color: #000;
     position: fixed;
-    left: -300px;
+    left: -250px;
     top: 0;
     background-color: #FFF;
-    width: 300px;
+    width: 250px;
     z-index: 1000;
     min-height: 100vh;
     transition: .7s;
+    background-color: #DDD;
 }
 
 .settings-box.open{
@@ -16,11 +17,11 @@
 
 .settings-box .toggle-settings{
     position: absolute;
-    right: -30px;
+    right: -40px;
     top: 40%;
     font-size: 30px;
-    background-color: #FFF;
-    width: 30px;
+    background-color: #DDD;
+    width: 40px;
     text-align: center;
     cursor: pointer;
     border-top-right-radius: 10px;
@@ -37,4 +38,81 @@
 .settings-box .toggle-settings .settings-icon:hover{
     transform: rotate(100deg);
     transition: 2s;
+}
+.settings-content{
+    padding: 10%;
+}
+
+.settings-content .house-icon{
+    font-size: 100px;
+    margin-left: 20%;
+}
+
+.settings-content .settingsBrand{
+    font-size: 30px;
+    color: #00727a;
+    font-weight: bold;
+}
+
+.settings-content .options-box{
+    margin: 15% 0 0;
+}
+
+.settings-content .options-box h4{
+    margin: 0;
+    color: #444;
+}
+
+.settings-content .options-box .colors-list{
+    list-style: none;
+    text-align: center;
+    padding: 0;
+    margin: 10%;
+}
+
+.settings-content .options-box .colors-list li{
+    width: 20px;
+    height: 20px;
+    background-color: teal;
+    display: inline-block;
+    border-radius: 50%;
+    margin-right: 8%;
+    cursor: pointer;
+    opacity: .5;
+}
+
+.settings-content .options-box .colors-list li.active,
+.settings-content .options-box .colors-list li:hover{
+    opacity: 1;
+    transform: scale(1.1);
+}
+
+.settings-content .options-box .colors-list li:first-child{
+    background-color: #FFD700;
+}
+
+.settings-content .options-box .colors-list li:nth-child(2){
+    background-color: #f06292;
+}
+
+.settings-content .options-box .colors-list li:nth-child(3){
+    background-color: #004d40;
+}
+
+.settings-content .options-box .colors-list li:nth-child(4){
+    background-color: #3e2723;
+}
+
+.settings-content .options-box .colors-list li:nth-child(5){
+    background-color: #263238;
+}
+
+.settings-content .options-box .span{
+    float: left;
+    width: 70%;
+}
+
+
+.settings-content .options-box .switch{
+    float: left;
 }
