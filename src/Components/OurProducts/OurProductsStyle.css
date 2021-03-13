@@ -1,0 +1,76 @@
+.outProducts{
+    padding: 10px 0;
+}
+
+.outProducts h2{
+    font-size: 38px;
+    font-weight: bold;
+    padding: 0 0 8%;
+}
+
+.outProducts .img-box{
+    text-align: center;
+}
+
+.outProducts .img-box img{
+    width: 25%;
+    padding: 1%;
+    cursor: pointer;
+}
+
+.previewPic{
+    background-color: rgba(0, 0, 0, 0.705);
+    position: fixed;
+    z-index: 10001;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    padding: 5%;
+}
+
+.previewPic .img-box-privew{
+    position: fixed;
+    padding: 2% 0;
+    background-color: #EEE;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    width: 35%;
+    border-radius: 8px;
+}
+
+.previewPic .close{
+    position: absolute;
+    top: -15px;
+    right: -15px;
+    cursor: pointer;
+    background-color: #00aeae9c;
+    height: 40px;
+    width: 40px;
+    line-height: 40px;
+    text-align: center;
+    color: #EEE;
+    font-size: 20px;
+    font-weight: 900;
+    border-radius: 50%;
+}
+
+.previewPic .close:hover{
+    background-color: #00aeae;
+    transform: rotate(180deg);
+    transition: 1s;
+}
+
+.previewPic h3{
+    width: 40%;
+    margin: -4% 0 2% 30%;
+    padding: 2.5%;
+    font-weight: bold;
+}
+
+.previewPic .img-box-privew > img{
+    width: 70%;
+}

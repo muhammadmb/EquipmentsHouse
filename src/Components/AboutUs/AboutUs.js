@@ -14,6 +14,7 @@ const AboutUs = () => {
                 <div className="img-div">
                     <img src={about} alt="about" />
                 </div>
+                <div className="Clear"></div>
             </div>
         </div>
     );

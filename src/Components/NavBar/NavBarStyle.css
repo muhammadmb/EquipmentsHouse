@@ -1,0 +1,59 @@
+.navbar{
+    width: 100%;
+}
+
+ .navbar .navbar-toggler{
+    color: #EEE;
+    outline: none;
+    border: none;
+}
+
+ .brand{
+    width: 25%;
+    font-size: 20px;
+    padding: 1%;
+    display: inline-block;
+    margin-left: 2%;
+    font-weight: bold;
+}
+
+ .links{
+    text-align: right;
+    list-style: none;
+    width: 100%;
+    margin-right: 6%;
+    font-size: 18px;
+}
+ .links li{
+    display: inline-block;
+    margin-left: 15px;
+}
+
+ .links li a{
+    color: #EEE;
+    text-decoration: none;
+    transition: .3s;
+}
+
+ .links li a:hover{
+    color: gold;
+}
+
+
+@media(max-width:991px){
+
+    .navbar-expand-lg{
+        text-align: center;
+    }
+
+     .brand{
+        width: 100%;
+        margin: 0 auto;
+        color: #FFD700;
+    }
+     .links li{
+        display:block;
+        text-align: center;
+        margin: 2% 0;
+    }
+}

@@ -1,11 +1,11 @@
 import React, { useEffect, useState } from 'react';
 import './MainPageStyle.css';
-import ReorderIcon from '@material-ui/icons/Reorder';
 import bg1 from '../../Images/1.jpg';
 import bg3 from '../../Images/3.jpg';
 import bg4 from '../../Images/4.jpg';
 import bg6 from '../../Images/6.jpg';
 import Settings from '../Settings/Settings';
+import NavBar from '../NavBar/NavBar';
 
 const MainPage = (props) => {
 
@@ -35,26 +35,7 @@ const MainPage = (props) => {
                         backgroundOptionsChange={(value) => setRandomBackground(!value)}
                     />
                     <div className="container">
-                        <nav className="navbar navbar-expand-lg">
-                            <button className="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarContent" aria-controls="navbarContent" aria-expanded="false" aria-label="Toggle navigation">
-                                <ReorderIcon fontSize="large" />
-                            </button>
-
-                            <div className="collapse navbar-collapse" id="navbarContent">
-
-                                <h1 className="brand">
-                                    Equipments House
-                            </h1>
-
-                                <ul className="links">
-                                    <li className="nav-item"><a href="#1">About</a></li>
-                                    <li className="nav-item"><a href="#1">Services</a></li>
-                                    <li className="nav-item"><a href="#1">Products</a></li>
-                                    <li className="nav-item"><a href="#1">Contact</a></li>
-                                </ul>
-
-                            </div>
-                        </nav>
+                        <NavBar />
                     </div>
                 </div>
 
