@@ -74,3 +74,13 @@
 .previewPic .img-box-privew > img{
     width: 70%;
 }
+
+@media(max-width : 767px){
+    .outProducts .img-box img{
+        width: 50%;
+    }
+    .previewPic .img-box-privew{
+        width: 70%;
+        border-radius: 8px;
+    }
+}

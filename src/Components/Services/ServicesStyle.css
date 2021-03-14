@@ -1,0 +1,41 @@
+.services-header{
+    margin: 4% 0;
+}
+
+.serv-box{
+    width: calc(100% / 3);
+    float: left;
+    text-align: center;
+    margin-bottom: 2%;
+    padding: 1%;
+}
+
+.serv-box  img{
+    width: 100%;
+    padding: 1.5%;
+    background-color: #EEE;
+
+}
+
+.serv-box h3{
+    padding: 7% 0 2%;
+    color: #555;
+}
+
+.serv-box hr{
+    height: 5px;
+    margin: 5% auto;
+    border-radius: 5px;
+    width: 40%;
+}
+
+.serv-box p{
+    line-height: 1.7;
+    color: #333;
+}
+
+@media(max-width: 767px){
+    .serv-box{
+        width: 100%;
+    }
+}
