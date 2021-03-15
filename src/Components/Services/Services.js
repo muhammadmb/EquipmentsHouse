@@ -57,6 +57,7 @@ const Services = () => {
             <h2 className="services-header">Services</h2>
             {ServicesDesplay}
 
+            <div className="Clear"></div>
         </div>
     );
 

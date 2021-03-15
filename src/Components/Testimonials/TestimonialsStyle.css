@@ -1,0 +1,59 @@
+.ts{
+    background-color: #004b6e;
+    padding: 2%;
+}
+
+.ts h2{
+    color: #EEE;
+}
+
+.ts .ts-container .ts-box{
+    float: left;
+    width: 32.33%;
+    background-color: #EEE;
+    margin: 3% 1% 0 0;
+    padding: 3%;
+}
+
+.ts .ts-container .ts-box > p{
+    color: #555;
+    font-style: italic;
+    line-height: 1.7;
+    font-weight: 800;
+}
+
+.ts .ts-container .ts-box img{
+    width: 100px;
+    height: 100px;
+    float: left;
+    margin-top: 5%;
+    padding: 2%;
+    background-color: #DDD;
+    border-radius: 50%;
+}
+
+.ts .ts-container .ts-box img:hover{
+    transform: scale(1.1);
+    transition: all .3s ease-in;
+}
+
+.ts .ts-container .ts-box h4,
+.ts .ts-container .ts-box .ts-title
+{
+    float: left;
+    margin: 12% 0 0 7%;
+}
+
+.ts .ts-container .ts-box .ts-title{
+    margin: 0 0 0 10%;
+}
+
+@media(max-width: 991px){
+    .ts{
+        padding: 10%;
+    }
+    .ts .ts-container .ts-box{
+        width: 100%;
+        margin: 6% 1% 0 0;
+    }
+}
