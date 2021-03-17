@@ -16,6 +16,11 @@
     width: 25%;
     padding: 1%;
     cursor: pointer;
+    transition: all .5s ease-out;
+}
+
+.outProducts .img-box img:hover{
+    transform: scale(1.04);
 }
 
 .previewPic{

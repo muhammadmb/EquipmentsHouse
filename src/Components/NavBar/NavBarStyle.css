@@ -27,15 +27,13 @@
  .links li{
     display: inline-block;
     margin-left: 15px;
-}
-
- .links li a{
     color: #EEE;
     text-decoration: none;
     transition: .3s;
+    cursor: pointer;
 }
 
- .links li a:hover{
+ .links li:hover{
     color: gold;
 }
 

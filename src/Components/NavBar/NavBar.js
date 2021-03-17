@@ -1,8 +1,10 @@
 import React from 'react';
 import './NavBarStyle.css'
 import ReorderIcon from '@material-ui/icons/Reorder';
+import Referances from '../Helper/Referances';
 
-const NavBar = () => {
+const NavBar = (props) => {
+
     return (
         <nav className="navbar navbar-expand-lg">
             <button className="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarContent" aria-controls="navbarContent" aria-expanded="false" aria-label="Toggle navigation">
@@ -16,10 +18,10 @@ const NavBar = () => {
                 </h1>
 
                 <ul className="links">
-                    <li className="nav-item"><a href="#1" onClick={() => console.log('some')}>About</a></li>
-                    <li className="nav-item"><a href="#1">Services</a></li>
-                    <li className="nav-item"><a href="#1">Products</a></li>
-                    <li className="nav-item"><a href="#1">Contact</a></li>
+                    <li className="nav-item" onClick={() => Referances.executeScroll(props.refs[1])}>About</li>
+                    <li className="nav-item" onClick={() => Referances.executeScroll(props.refs[2])}>Products</li>
+                    <li className="nav-item" onClick={() => Referances.executeScroll(props.refs[3])}>Services</li>
+                    <li className="nav-item" onClick={() => Referances.executeScroll(props.refs[4])}>Testimonials</li>
                 </ul>
 
             </div>

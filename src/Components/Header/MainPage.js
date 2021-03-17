@@ -13,9 +13,13 @@ const MainPage = (props) => {
     const [color, setColor] = useState(localStorage.getItem("color"));
     const [randomBackground, setRandomBackground] = useState(true);
     const backgrounds = [bg1, bg3, bg4, bg6];
+
+
+
     let background = backgrounds[value];
 
     useEffect(() => {
+
         if (randomBackground) {
             const interval = setInterval(() => {
                 setValue(Math.floor(Math.random() * backgrounds.length));
@@ -35,7 +39,7 @@ const MainPage = (props) => {
                         backgroundOptionsChange={(value) => setRandomBackground(!value)}
                     />
                     <div className="container">
-                        <NavBar />
+                        <NavBar refs={props.refs} />
                     </div>
                 </div>
 

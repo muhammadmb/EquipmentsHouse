@@ -11,30 +11,35 @@ const Services = () => {
 
     const ServicesList = [
         {
+            id: 1,
             name: "Export",
             src: S1,
             description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer posuere sapien et commodo bibendum."
         }
         ,
         {
+            id: 2,
             name: "Import",
             src: S2,
             description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer posuere sapien et commodo bibendum."
         }
         ,
         {
+            id: 3,
             name: "Maintenance",
             src: S3,
             description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer posuere sapien et commodo bibendum."
         }
         ,
         {
+            id: 4,
             name: "Marketing",
             src: S4,
             description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer posuere sapien et commodo bibendum."
         }
         ,
         {
+            id: 5,
             name: "Rent",
             src: S5,
             description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer posuere sapien et commodo bibendum."
@@ -43,7 +48,7 @@ const Services = () => {
 
     const ServicesDesplay = ServicesList.map(
         ser =>
-            <div className="serv-box">
+            <div className="serv-box" key={ser.id}>
                 <img src={ser.src} alt={ser.name} title={ser.name} />
                 <h3 > {ser.name} </h3>
                 <hr />

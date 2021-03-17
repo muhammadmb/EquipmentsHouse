@@ -16,42 +16,52 @@ const OurProducts = () => {
 
     const pics = [
         {
+            id: 1,
             src: P0,
             name: "Fork Lift"
         },
         {
+            id: 2,
             src: P1,
             name: "Scooptram"
         },
         {
+            id: 3,
             src: P2,
             name: "Fork Lift"
         },
         {
+            id: 4,
             src: P3,
             name: "Towe Crane"
         },
         {
+            id: 5,
             src: P4,
             name: "Excavator"
         },
         {
+            id: 6,
             src: P5,
             name: "Roller"
         },
         {
+            id: 7,
             src: P6,
             name: "Roller"
         },
         {
+            id: 8,
             src: P7,
             name: "Bobcat"
         },
         {
+            id: 9,
             src: P8,
             name: "Bobcat"
         },
         {
+            id: 10,
             src: P9,
             name: "Bobcat"
         }];
@@ -60,7 +70,9 @@ const OurProducts = () => {
     const [activePic, setActivePic] = useState();
 
     const productPicture = pics.map(productPic =>
-        <img src={productPic.src}
+        <img
+            key={productPic.id}
+            src={productPic.src}
             alt="products pictures"
             onClick={
                 () => {
