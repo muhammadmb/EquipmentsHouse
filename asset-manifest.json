@@ -1,17 +1,17 @@
 {
   "files": {
-    "main.css": "/EquipmentsHouse/static/css/main.6574ee58.chunk.css",
-    "main.js": "/EquipmentsHouse/static/js/main.a2f2e8f2.chunk.js",
-    "main.js.map": "/EquipmentsHouse/static/js/main.a2f2e8f2.chunk.js.map",
-    "runtime-main.js": "/EquipmentsHouse/static/js/runtime-main.9347d542.js",
-    "runtime-main.js.map": "/EquipmentsHouse/static/js/runtime-main.9347d542.js.map",
-    "static/js/2.e4fb2d69.chunk.js": "/EquipmentsHouse/static/js/2.e4fb2d69.chunk.js",
-    "static/js/2.e4fb2d69.chunk.js.map": "/EquipmentsHouse/static/js/2.e4fb2d69.chunk.js.map",
-    "static/js/3.c50902ba.chunk.js": "/EquipmentsHouse/static/js/3.c50902ba.chunk.js",
-    "static/js/3.c50902ba.chunk.js.map": "/EquipmentsHouse/static/js/3.c50902ba.chunk.js.map",
+    "main.css": "/EquipmentsHouse/static/css/main.ef100cfc.chunk.css",
+    "main.js": "/EquipmentsHouse/static/js/main.3a353530.chunk.js",
+    "main.js.map": "/EquipmentsHouse/static/js/main.3a353530.chunk.js.map",
+    "runtime-main.js": "/EquipmentsHouse/static/js/runtime-main.737b7784.js",
+    "runtime-main.js.map": "/EquipmentsHouse/static/js/runtime-main.737b7784.js.map",
+    "static/js/2.6aa90dbb.chunk.js": "/EquipmentsHouse/static/js/2.6aa90dbb.chunk.js",
+    "static/js/2.6aa90dbb.chunk.js.map": "/EquipmentsHouse/static/js/2.6aa90dbb.chunk.js.map",
+    "static/js/3.f034567d.chunk.js": "/EquipmentsHouse/static/js/3.f034567d.chunk.js",
+    "static/js/3.f034567d.chunk.js.map": "/EquipmentsHouse/static/js/3.f034567d.chunk.js.map",
     "index.html": "/EquipmentsHouse/index.html",
-    "static/css/main.6574ee58.chunk.css.map": "/EquipmentsHouse/static/css/main.6574ee58.chunk.css.map",
-    "static/js/2.e4fb2d69.chunk.js.LICENSE.txt": "/EquipmentsHouse/static/js/2.e4fb2d69.chunk.js.LICENSE.txt",
+    "static/css/main.ef100cfc.chunk.css.map": "/EquipmentsHouse/static/css/main.ef100cfc.chunk.css.map",
+    "static/js/2.6aa90dbb.chunk.js.LICENSE.txt": "/EquipmentsHouse/static/js/2.6aa90dbb.chunk.js.LICENSE.txt",
     "static/media/1.00932e7c.jpg": "/EquipmentsHouse/static/media/1.00932e7c.jpg",
     "static/media/10.9d65ab79.jpg": "/EquipmentsHouse/static/media/10.9d65ab79.jpg",
     "static/media/11.baa2b3d8.jpg": "/EquipmentsHouse/static/media/11.baa2b3d8.jpg",
@@ -34,9 +34,9 @@
     "static/media/about-us.6b39ab58.jpg": "/EquipmentsHouse/static/media/about-us.6b39ab58.jpg"
   },
   "entrypoints": [
-    "static/js/runtime-main.9347d542.js",
-    "static/js/2.e4fb2d69.chunk.js",
-    "static/css/main.6574ee58.chunk.css",
-    "static/js/main.a2f2e8f2.chunk.js"
+    "static/js/runtime-main.737b7784.js",
+    "static/js/2.6aa90dbb.chunk.js",
+    "static/css/main.ef100cfc.chunk.css",
+    "static/js/main.3a353530.chunk.js"
   ]
 }
