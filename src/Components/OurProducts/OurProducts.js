@@ -12,7 +12,7 @@ import P7 from '../../Images/Products/17.jpg';
 import P8 from '../../Images/Products/18.jpg';
 import P9 from '../../Images/Products/19.jpg';
 
-const OurProducts = () => {
+const OurProducts = (props) => {
 
     const pics = [
         {
@@ -82,7 +82,10 @@ const OurProducts = () => {
         />)
 
     return (
-        <div className="outProducts">
+        <div
+            className="outProducts"
+            ref={props.referance}
+        >
 
             {
                 Preview ?

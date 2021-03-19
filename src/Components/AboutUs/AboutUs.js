@@ -2,10 +2,13 @@ import React from 'react';
 import './AboutUsStyle.css';
 import about from '../../Images/about-us.jpg';
 
-const AboutUs = () => {
+const AboutUs = (props) => {
 
     return (
-        <div className="container">
+        <div
+            className="container"
+            ref={props.referance}
+        >
             <div className="about-us">
                 <div className="about-content">
                     <h2>About Us</h2>

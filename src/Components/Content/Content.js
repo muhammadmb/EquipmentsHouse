@@ -6,6 +6,7 @@ import OurProducts from '../OurProducts/OurProducts';
 import Services from '../Services/Services';
 import Testimonials from '../Testimonials/Testimonials';
 import Referances from '../Helper/Referances';
+import Contact from '../ContactUs/Contact';
 
 const Content = () => {
 
@@ -14,12 +15,14 @@ const Content = () => {
     const [ourProducts, setOurProducts] = useState(false);
     const [services, setServices] = useState(false);
     const [testimonials, setTestimonials] = useState(false);
+    const [contact, setContact] = useState(false);
 
     const homeRef = useRef();
     const aboutRef = useRef();
     const productRef = useRef();
     const serviceRef = useRef();
     const testimonialRef = useRef();
+    const contactRef = useRef();
 
     return (
         <div>
@@ -95,37 +98,44 @@ const Content = () => {
                     </div>
                 </div>
 
+                <div
+                    className={contact ? "active bullet" : "bullet"}
+                    onClick={() => Referances.executeScroll(contactRef)}
+                    onMouseEnter={() => setContact(true)}
+                    onMouseLeave={() => setContact(false)}
+                >
+                    <div
+                        className="hover"
+                        style={{ display: contact ? 'unset' : 'none' }}
+                    >
+                        Contact
+                    </div>
+                </div>
+
             </div>
 
 
-            <div ref={homeRef} >
-                <Header
-                    homeReferance={homeRef}
-                    refs={[
-                        homeRef,
-                        aboutRef,
-                        productRef,
-                        serviceRef,
-                        testimonialRef
-                    ]}
-                />
-            </div>
+            <Header
+                homeReferance={homeRef}
+                refs={[
+                    homeRef,
+                    aboutRef,
+                    productRef,
+                    serviceRef,
+                    testimonialRef,
+                    contactRef
+                ]}
+            />
 
-            <div ref={aboutRef} >
-                <AboutUs />
-            </div>
+            <AboutUs referance={aboutRef} />
 
-            <div ref={productRef} >
-                <OurProducts />
-            </div>
+            <OurProducts referance={productRef} />
 
-            <div ref={serviceRef}>
-                <Services />
-            </div>
+            <Services referance={serviceRef} />
 
-            <div ref={testimonialRef} >
-                <Testimonials />
-            </div>
+            <Testimonials referance={testimonialRef} />
+
+            <Contact referance={contactRef} />
         </div>
     );
 }

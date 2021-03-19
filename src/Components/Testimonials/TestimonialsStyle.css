@@ -46,6 +46,7 @@
 
 .ts .ts-container .ts-box .ts-title{
     margin: 0 0 0 10%;
+    width: 50%;
 }
 
 @media(max-width: 991px){

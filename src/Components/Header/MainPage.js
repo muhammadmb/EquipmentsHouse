@@ -29,7 +29,11 @@ const MainPage = (props) => {
     });
 
     return (
-        <div className="main-page" style={{ backgroundImage: `url(${background})` }}>
+        <div
+            className="main-page"
+            style={{ backgroundImage: `url(${background})` }}
+            ref={props.refs[0]}
+        >
 
             <div className="overlay">
                 <div className="header-area">

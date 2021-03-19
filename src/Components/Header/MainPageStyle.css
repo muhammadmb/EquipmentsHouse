@@ -3,6 +3,7 @@
     background-size: cover;
     position: relative;
     transition: .3s;
+    z-index: 10;
 }
 
 .main-page .overlay{

@@ -7,7 +7,7 @@ import S3 from '../../Images/Services/Maintanince.jpg';
 import S4 from '../../Images/Services/Marketing.jpg';
 import S5 from '../../Images/Services/Rental.jpg';
 
-const Services = () => {
+const Services = (props) => {
 
     const ServicesList = [
         {
@@ -57,7 +57,10 @@ const Services = () => {
     )
 
     return (
-        <div className="container">
+        <div
+            className="container"
+            ref={props.referance}
+        >
 
             <h2 className="services-header">Services</h2>
             {ServicesDesplay}

@@ -4,6 +4,7 @@
     top: 50%;
     transform: translateY(-50%);
     width: 40px;
+    z-index: 3;
 }
 
 .nav-bullets .bullet{
@@ -18,6 +19,7 @@
 
 .nav-bullets .bullet:hover{
     background-color: #00AEAE;
+    transition: .5s;
 }
 
 .nav-bullets .bullet .hover{
