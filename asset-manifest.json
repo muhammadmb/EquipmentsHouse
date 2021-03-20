@@ -1,17 +1,17 @@
 {
   "files": {
-    "main.css": "/EquipmentsHouse/static/css/main.49214577.chunk.css",
-    "main.js": "/EquipmentsHouse/static/js/main.18a5a359.chunk.js",
-    "main.js.map": "/EquipmentsHouse/static/js/main.18a5a359.chunk.js.map",
-    "runtime-main.js": "/EquipmentsHouse/static/js/runtime-main.1cb1cfd7.js",
-    "runtime-main.js.map": "/EquipmentsHouse/static/js/runtime-main.1cb1cfd7.js.map",
-    "static/js/2.c6733889.chunk.js": "/EquipmentsHouse/static/js/2.c6733889.chunk.js",
-    "static/js/2.c6733889.chunk.js.map": "/EquipmentsHouse/static/js/2.c6733889.chunk.js.map",
-    "static/js/3.3d30cb2b.chunk.js": "/EquipmentsHouse/static/js/3.3d30cb2b.chunk.js",
-    "static/js/3.3d30cb2b.chunk.js.map": "/EquipmentsHouse/static/js/3.3d30cb2b.chunk.js.map",
+    "main.css": "/EquipmentsHouse/static/css/main.a1898f85.chunk.css",
+    "main.js": "/EquipmentsHouse/static/js/main.1f46d636.chunk.js",
+    "main.js.map": "/EquipmentsHouse/static/js/main.1f46d636.chunk.js.map",
+    "runtime-main.js": "/EquipmentsHouse/static/js/runtime-main.323a03ae.js",
+    "runtime-main.js.map": "/EquipmentsHouse/static/js/runtime-main.323a03ae.js.map",
+    "static/js/2.3c77bedd.chunk.js": "/EquipmentsHouse/static/js/2.3c77bedd.chunk.js",
+    "static/js/2.3c77bedd.chunk.js.map": "/EquipmentsHouse/static/js/2.3c77bedd.chunk.js.map",
+    "static/js/3.55355726.chunk.js": "/EquipmentsHouse/static/js/3.55355726.chunk.js",
+    "static/js/3.55355726.chunk.js.map": "/EquipmentsHouse/static/js/3.55355726.chunk.js.map",
     "index.html": "/EquipmentsHouse/index.html",
-    "static/css/main.49214577.chunk.css.map": "/EquipmentsHouse/static/css/main.49214577.chunk.css.map",
-    "static/js/2.c6733889.chunk.js.LICENSE.txt": "/EquipmentsHouse/static/js/2.c6733889.chunk.js.LICENSE.txt",
+    "static/css/main.a1898f85.chunk.css.map": "/EquipmentsHouse/static/css/main.a1898f85.chunk.css.map",
+    "static/js/2.3c77bedd.chunk.js.LICENSE.txt": "/EquipmentsHouse/static/js/2.3c77bedd.chunk.js.LICENSE.txt",
     "static/media/1.00932e7c.jpg": "/EquipmentsHouse/static/media/1.00932e7c.jpg",
     "static/media/10.9d65ab79.jpg": "/EquipmentsHouse/static/media/10.9d65ab79.jpg",
     "static/media/11.baa2b3d8.jpg": "/EquipmentsHouse/static/media/11.baa2b3d8.jpg",
@@ -35,9 +35,9 @@
     "static/media/world-map.e6ba2c9c.png": "/EquipmentsHouse/static/media/world-map.e6ba2c9c.png"
   },
   "entrypoints": [
-    "static/js/runtime-main.1cb1cfd7.js",
-    "static/js/2.c6733889.chunk.js",
-    "static/css/main.49214577.chunk.css",
-    "static/js/main.18a5a359.chunk.js"
+    "static/js/runtime-main.323a03ae.js",
+    "static/js/2.3c77bedd.chunk.js",
+    "static/css/main.a1898f85.chunk.css",
+    "static/js/main.1f46d636.chunk.js"
   ]
 }
