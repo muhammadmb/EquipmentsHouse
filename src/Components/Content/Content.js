@@ -7,6 +7,7 @@ import Services from '../Services/Services';
 import Testimonials from '../Testimonials/Testimonials';
 import Referances from '../Helper/Referances';
 import Contact from '../ContactUs/Contact';
+import Footer from '../Footer/Footer';
 
 const Content = () => {
 
@@ -25,7 +26,7 @@ const Content = () => {
     const contactRef = useRef();
 
     return (
-        <div>
+        <>
             <div className="nav-bullets">
 
                 <div
@@ -136,7 +137,9 @@ const Content = () => {
             <Testimonials referance={testimonialRef} />
 
             <Contact referance={contactRef} />
-        </div>
+
+            <Footer />
+        </>
     );
 }
 

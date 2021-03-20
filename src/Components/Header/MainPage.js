@@ -47,8 +47,8 @@ const MainPage = (props) => {
                     </div>
                 </div>
 
-                <div className="introduction-text">
-                    <h1>Find your <span style={{ color }}>Equipments</span></h1>
+                <div className="container introduction-text">
+                    <h1>Get your <span style={{ color }}>Equipments</span></h1>
                     <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam rutrum ipsum sit amet urna interdum pellentesque.</p>
                 </div>
 
